@@ -1,6 +1,6 @@
 {
       "name": "react-preview-anylink",
-      "version": "1.0.01",                     
+      "version": "1.0.02",                     
       "type": "module",
       "source": "src/index.js",            
       "main": "dist/index.js",
