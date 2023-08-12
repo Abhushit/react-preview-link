@@ -1,0 +1,16 @@
+{
+      "name": "react-preview-link",
+      "version": "1.0.0",                     
+      "type": "module",
+      "source": "src/index.js",            
+      "main": "dist/index.js",
+      "module": "dist/index.module.js",
+      "unpkg": "dist/index.umd.js",
+      "scripts": {
+        "build": "microbundle",           
+        "dev": "microbundle watch"        
+      },
+      "devDependencies": {
+        "microbundle": "^0.15.1"
+      }
+    }

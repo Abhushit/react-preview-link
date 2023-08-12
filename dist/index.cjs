@@ -1,0 +1,2 @@
+exports.Preview=function(e){var t,n=e.link,i=e.width,d=e.height;return document.addEventListener("DOMContentLoaded",function(){var e;t=document.getElementById("preview_div");var r=document.createElement("iframe");r.src=n||"https://react.dev",r.style.width=i||"100%",r.style.height=d||"500px",t.innerHTML="",null==(e=t)||e.appendChild(r)}),h("div",{id:"preview_div"}," ")};
+//# sourceMappingURL=index.cjs.map

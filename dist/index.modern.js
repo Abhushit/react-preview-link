@@ -1,0 +1,2 @@
+const e=({link:e,width:t,height:d})=>{var n;return document.addEventListener("DOMContentLoaded",()=>{var i;n=document.getElementById("preview_div");var r=document.createElement("iframe");r.src=e||"https://react.dev",r.style.width=t||"100%",r.style.height=d||"500px",n.innerHTML="",null==(i=n)||i.appendChild(r)}),h("div",{id:"preview_div"}," ")};export{e as Preview};
+//# sourceMappingURL=index.modern.js.map
