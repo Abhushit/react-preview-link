@@ -5,23 +5,23 @@
 // }
 
 export const Preview = ({ link, width, height }) => {
-    var preview;
+  var preview;
 
-    const previewLink = () => {
-        document.addEventListener("DOMContentLoaded", () => {
-        preview = document.getElementById("preview_div");
+  const previewLink = () => {
+    setTimeout(() => {
+      preview = document.getElementById("preview_div");
 
-        var iFrame = document.createElement("iframe");
-        iFrame.src = link || "https://react.dev";
-        iFrame.style.width = width || "100%";
-        iFrame.style.height = height || "500px";
+      var iFrame = document.createElement("iframe");
+      iFrame.src = link || "https://react.dev";
+      iFrame.style.width = width || "100%";
+      iFrame.style.height = height || "500px";
 
-        preview.innerHTML = "";
-        preview?.appendChild(iFrame);
-        })
-    }
+      preview.innerHTML = "";
+      preview?.appendChild(iFrame);
+    }, 250);
+  };
 
-    previewLink();
+  previewLink();
 
-    return <div id="preview_div"> </div>
+  return <div id="preview_div"> </div>;
 };

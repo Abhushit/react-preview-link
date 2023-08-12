@@ -1,5 +1,5 @@
 {
-      "name": "react-preview-link",
+      "name": "react-preview-anylink",
       "version": "1.0.0",                     
       "type": "module",
       "source": "src/index.js",            
