@@ -1,2 +1,2 @@
-const e=({link:e,width:t,height:d})=>{var n;return document.addEventListener("DOMContentLoaded",()=>{var i;n=document.getElementById("preview_div");var r=document.createElement("iframe");r.src=e||"https://react.dev",r.style.width=t||"100%",r.style.height=d||"500px",n.innerHTML="",null==(i=n)||i.appendChild(r)}),h("div",{id:"preview_div"}," ")};export{e as Preview};
+const e=({link:e,width:t,height:i})=>{var r;return setTimeout(()=>{var d;r=document.getElementById("preview_div");var n=document.createElement("iframe");n.src=e||"https://react.dev",n.style.width=t||"100%",n.style.height=i||"500px",r.innerHTML="",null==(d=r)||d.appendChild(n)},250),h("div",{id:"preview_div"}," ")};export{e as Preview};
 //# sourceMappingURL=index.modern.js.map

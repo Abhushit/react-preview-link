@@ -1,2 +1,2 @@
-var e=function(e){var t,n=e.link,d=e.width,i=e.height;return document.addEventListener("DOMContentLoaded",function(){var e;t=document.getElementById("preview_div");var r=document.createElement("iframe");r.src=n||"https://react.dev",r.style.width=d||"100%",r.style.height=i||"500px",t.innerHTML="",null==(e=t)||e.appendChild(r)}),h("div",{id:"preview_div"}," ")};export{e as Preview};
+var e=function(e){var t,i=e.link,n=e.width,r=e.height;return setTimeout(function(){var e;t=document.getElementById("preview_div");var d=document.createElement("iframe");d.src=i||"https://react.dev",d.style.width=n||"100%",d.style.height=r||"500px",t.innerHTML="",null==(e=t)||e.appendChild(d)},250),h("div",{id:"preview_div"}," ")};export{e as Preview};
 //# sourceMappingURL=index.module.js.map
