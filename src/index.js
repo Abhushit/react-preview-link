@@ -11,17 +11,17 @@ export const Preview = ({ link, width, height }) => {
     setTimeout(() => {
       preview = document.getElementById("preview_div");
 
-      var iFrame = document.createElement("iframe");
+      const iFrame = document.createElement("iframe");
       iFrame.src = link || "https://react.dev";
       iFrame.style.width = width || "100%";
       iFrame.style.height = height || "500px";
 
       preview.innerHTML = "";
-      preview?.appendChild(iFrame);
-    }, 250);
+      preview.appendChild(iFrame);
+    }, 300);
   };
 
   previewLink();
 
-  return <div id="preview_div"> </div>;
+  return `<div id="preview_div"> </div>`;
 };
